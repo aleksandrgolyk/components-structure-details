@@ -1,0 +1,28 @@
+[
+  {
+    "name": "",
+    "children": [
+      {
+        "name": "Component1",
+        "children": [
+          {
+            "name": "Component3"
+          },
+          {
+            "name": "Component2",
+            "children": [
+              {
+                "name": "Component4",
+                "children": [
+                  {
+                    "name": "Component7"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

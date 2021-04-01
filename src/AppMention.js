@@ -12,20 +12,14 @@ const AppMention = (props) => {
         setSelectedItem(selected);
     }
 
-
     const filteredOptions = incomArr.filter(i => !selectedItems.includes(i));
-
-
-
-
-
 
     const str1 = (selectedItems.toString()/*.replaceAll('>','",name:"').replaceAll('&','",children":[')*/);
     return (
         <>
             <Typography>List of components</Typography>
             <Mentions style={{width: '100%'}} split='' onChange={onChange}
-                      prefix={['', '>', '(', ')', '&']}>
+                      prefix={[' ','>','&']}>
                 {filteredOptions.map((item, index) => (
                     <Option key={index} value={item}>
                         {item}

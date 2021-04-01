@@ -2,7 +2,8 @@ import React from 'react';
 import 'antd/dist/antd.css';
 
 const App = () => {
-  const inputValue = 'Com1>Com2&Com3&Com4>Com5&Com6>Com7>Com8&Com9'
+  // const inputValue = 'Com1>Com2&Com3&Com4>Com5&Com6>Com7>Com8&Com9'
+  const inputValue = '>Component1>Component3&Component2>Component4>Component7'
   const result = []
 
   function parse(inputValue) {
@@ -47,9 +48,11 @@ const App = () => {
   parse(inputValue)
   console.log(result)
 
+  const resultToJson = JSON.stringify(result)
+
   return (
       <>
-        <div>{JSON.stringify(result)}</div>
+        <div>{resultToJson}</div>
       </>
   )
 }
