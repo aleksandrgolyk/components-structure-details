@@ -6,7 +6,7 @@ import AppMention from "./AppMention";
 ReactDOM.render(
   <React.StrictMode>
     <App />
-    <AppMention/>
+    {/*<AppMention/>*/}
   </React.StrictMode>,
   document.getElementById('root')
 );

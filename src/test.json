@@ -1,21 +1,43 @@
 [
   {
-    "name": "",
+    "name": " Component1",
     "children": [
       {
-        "name": "Component1",
+        "name": "Component2",
         "children": [
           {
-            "name": "Component3"
-          },
-          {
-            "name": "Component2",
+            "name": "Component3",
             "children": [
               {
                 "name": "Component4",
                 "children": [
                   {
-                    "name": "Component7"
+                    "name": "Component5",
+                    "children": [
+                      {
+                        "name": "Component6",
+                        "children": [
+                          {
+                            "name": "Component7",
+                            "children": [
+                              {
+                                "name": "Component8",
+                                "children": [
+                                  {
+                                    "name": "Component9",
+                                    "children": [
+                                      {
+                                        "name": "Component10"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
                   }
                 ]
               }
